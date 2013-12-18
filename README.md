@@ -9,4 +9,15 @@ It will provide various of machine learning algorithms. All of algorithms in thi
 * NumPy 1.7.0-1. [*HomePage*](https://github.com/numpy/numpy)
 * Python 2.7.2
 
+## Quick Start
+see help: ./train.py -h
+
+* use linear regression:
+`./train.py -c conf/ml.cfg -m linear_regression`
+* use logistic regression:
+`./train.py -c conf/ml.cfg -m logistic_regression`
+* use svm regression:
+`./train.py -c conf/ml.cfg -m svm`
+
+If you want to tune the parameters, you can find them in configuration file(conf/ml.cfg).
 
