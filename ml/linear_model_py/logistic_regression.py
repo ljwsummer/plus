@@ -14,7 +14,7 @@ from linear_model import LinearModel
 class LogisticReg(LinearModel):
   """logistic regression"""
 
-  def __init__(self, conf_file):
+  def __init__(self, options):
     LinearModel.__init__(self)
     self.alpha = options.alpha
     self.iters = options.num_iters
@@ -86,11 +86,11 @@ def main():
 
   (options, args) = parser.parse_args()
 
-  logistic_reg = LinearReg(options)
+  logistic_reg = LogisticReg(options)
 
   if (options.test_file != ''):
     logistic_reg.load_model(options.model_in)
-    logistic_reg.predict(linear_reg.data.X, options.results_file)
+    logistic_reg.predict(logistic_reg.data.X, options.results_file)
   elif (options.training_file != ''):
     logistic_reg.train()
     logistic_reg.save_model(options.model_out)
