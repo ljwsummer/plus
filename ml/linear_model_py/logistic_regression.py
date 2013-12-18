@@ -73,7 +73,7 @@ def main():
   parser.add_option('-l', '--lambda', dest = 'lambd', type = 'float',
       default = 0.001, help = 'regularization factor')
   parser.add_option('-t', '--has_intercept', dest = 'has_intercept', type = 'int',
-      default = 1, help = '1 / 0 means has intercept or not')
+      default = 0, help = '1 / 0 means has intercept or not')
   parser.add_option('-i', '--model_in', dest = 'model_in', type = 'str',
       default = '', help = 'read in a model from this file')
   parser.add_option('-o', '--model_out', dest = 'model_out', type = 'str',
