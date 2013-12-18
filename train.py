@@ -40,7 +40,7 @@ def main():
       help = 'config file')
   parser.add_option('-m', '--model', dest = 'model',
       default = 'svm',
-      help = 'training algorithm linear_regression/logistic_regression/svm')
+      help = 'choose training algorithm linear_regression/logistic_regression/svm')
 
   (options, args) = parser.parse_args()
 
