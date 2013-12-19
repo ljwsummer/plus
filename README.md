@@ -10,14 +10,30 @@ It will provide various of machine learning algorithms. All of algorithms in thi
 * Python 2.7.2
 
 ## Quick Start
-see help: ./train.py -h
+### Training models
+see help info: ./train.py -h
 
 * use linear regression:
+
 `./train.py -c conf/ml.cfg -m linear_regression`
 * use logistic regression:
+
 `./train.py -c conf/ml.cfg -m logistic_regression`
 * use svm regression:
+
 `./train.py -c conf/ml.cfg -m svm`
 
 If you want to tune the parameters, you can find them in configuration file(conf/ml.cfg).
+
+### Predicting
+see help info: ./predict.py -h
+
+predict svm:
+
+`./predict.py -f data/demo_data.txt -i svm_model -m svm -r results`
+or
+
+`./predict.py --test_file data/demo_data.txt --model_in svm_model --model svm --results_file results`
+
+It is easy to know how to predict linear_regression, logistic_regression, or some other algorithms.
 
