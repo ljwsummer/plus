@@ -1,5 +1,5 @@
 # das
-das = data analysis software? No. Actually **das** means the reverse of sad. To be honest, I feel very sad for something when I start this project.
+das = data analysis software? No. Actually **das** means the reverse of sad. To be honest, I felt very sad for something when I start this project.
 
 ## Introduction
 A machine learning toolkit. 
