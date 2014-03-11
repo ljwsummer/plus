@@ -12,7 +12,8 @@ It will provide various of machine learning algorithms. All of algorithms in thi
 ## Quick Start
 ### Training models
 use demo data to **train** a linear regression model: `sh train.sh`
-see help info: ./train.py -h
+
+see help info: `./train.py -h`
 
 * use linear regression:
 
@@ -28,7 +29,8 @@ If you want to tune the parameters, you can find them in configuration file(conf
 
 ### Predicting
 use a demo linear regression model to **predict**: `sh predict.sh`
-see help info: ./predict.py -h
+
+see help info: `./predict.py -h`
 
 predict svm:
 
