@@ -8,8 +8,8 @@ import optparse
 
 binmap = {
     'svm' : 'ml/svm/sofia-ml',
-    'linear_regression' : 'ml/linear_model/linear_regression.py',
-    'logistic_ression' : 'ml/linear_model/logistic_regression.py'
+    'linear_regression' : 'ml/linear_model_py/linear_regression.py',
+    'logistic_ression' : 'ml/linear_model_py/logistic_regression.py'
     }
 
 
